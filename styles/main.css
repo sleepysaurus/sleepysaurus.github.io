@@ -6,6 +6,11 @@ body {
   font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+header {
+  font-family: 'Faster One', cursive;
+  font-size: 10em;
+}
+
 .app-container {
   border: 1px solid silver;
   margin: auto;
@@ -28,7 +33,22 @@ body {
 }
 
 
-
 .center {
   text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1440px) {
+  #peony {
+    max-width: 300px;
+    padding: 50px 0px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  #peony {
+    max-width: 550px;
+    padding: 50px 0px;
+  }
 }
